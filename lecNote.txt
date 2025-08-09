@@ -33,7 +33,7 @@ changes not added  ==> git add .
 =======================================> git commit -am "msg"
 =======================================> git commit -a -m "msg"
 =======> git add . 
-==> reverse 
+==> reverse  from working to staging 
          working    <====  staging
                     <=============
  git reset fileName
