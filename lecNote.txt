@@ -19,3 +19,22 @@ initalize git (create local repo) ==>  git init  ==> create hidden file (working
 ===> cheet sheet commit messgae ==> https://eqraatech.com/git-commit-message-cheatsheet/#:~:text=%D9%88%D8%B1%D9%82%D8%A9%20%D9%88%D9%82%D9%84%D9%85%20%D9%88%D9%87%D9%86%D8%AA%D9%83%D9%84%D9%85%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%80,%D8%A5%D9%8A%D9%87%20%D8%A7%D9%84%D9%84%D9%8A%20%D8%A7%D8%AA%D8%BA%D9%8A%D8%B1%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%83%D9%88%D8%AF.
 
 
+
+ 
+
+working area         staging area             local repo
+
+(.git )               (queue)
+untracked files ==> git add fileName   ==> git commit -m "msg" 
+changes not added  ==> git add .
+
+=> fie => add ==> changes 
+                                   ==> -a: add -m: message
+=======================================> git commit -am "msg"
+=======================================> git commit -a -m "msg"
+=======> git add . 
+==> reverse 
+         working    <====  staging
+                    <=============
+ git reset fileName
+ git reset 
