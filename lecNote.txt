@@ -38,3 +38,17 @@ changes not added  ==> git add .
                     <=============
  git reset fileName
  git reset 
+
+
+ ===========================> 
+ add file ==> change1 ==> commit
+ same file ==> change2 related changes  ==> two changes on same commit ==> git commit --amend
+ ===> commit amend ==>  file ==> mesg => file => add msg ==> close file 
+ ===> defualt editor vs code ==>  git config --global core.editor "code --wait"
+
+
+
+ ====> show all commits ==> git log ==> all details => id , author , msg , date
+ ====> show all commits ==> git log --oneline
+
+ 
