@@ -2,3 +2,4 @@
 .env
 imgs/*.svg
 test/*.xls
+tasks.txt
