@@ -22,11 +22,11 @@ initalize git (create local repo) ==>  git init  ==> create hidden file (working
 
  
 
-working area         staging area             local repo
+working area         staging area             local repo               remote repo ()==> related to variable ==> origin
 
-(.git )               (queue)
-untracked files ==> git add fileName   ==> git commit -m "msg" 
-changes not added  ==> git add .
+(.git )               (queue)                                          github : repo :  https://github.com/ayaatadel/ayaatadel-dotNet_q1_2025.git
+untracked files ==> git add fileName   ==> git commit -m "msg"    ==> git remote add origin repo_link
+changes not added  ==> git add .                                  ==> git remote add origin  ==> git remote add origin https://github.com/ayaatadel/ayaatadel-dotNet_q1_2025.git
 
 => fie => add ==> changes 
                                    ==> -a: add -m: message
@@ -39,6 +39,9 @@ changes not added  ==> git add .
  git reset fileName
  git reset 
 
+                                                                <==============================
+                                                                git pull origin  master
+
 
  ===========================> 
  add file ==> change1 ==> commit
@@ -50,5 +53,16 @@ changes not added  ==> git add .
 
  ====> show all commits ==> git log ==> all details => id , author , msg , date
  ====> show all commits ==> git log --oneline
+
+================== copy ================> R.click + git bash here  ==> permited to any one until repo public
+ -====> copy : git clone repo_link   
+ -====> copy : git clone  https://github.com/ayaatadel/ayaatadel-dotNet_q1_2025.git
+
+===================> repo public ===> acess -==> edit xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+any one ==> acsess on repo ==> collaborator ==> setting : collaborators=>  userName , Gmail (github)
+
+====> pull all  updates
+
 
  
