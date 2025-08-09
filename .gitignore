@@ -1,5 +1,4 @@
 *.pdf
 .env
 test/*.xls
-tasks.txt
 images/*.png
