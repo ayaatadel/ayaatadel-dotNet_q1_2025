@@ -62,7 +62,7 @@ changes not added  ==> git add .                                  ==> git remote
 
 any one ==> acsess on repo ==> collaborator ==> setting : collaborators=>  userName , Gmail (github)
 
-====> pull all  updates
+====> pull all  updates  ==> git pull origin master
 
 
  
