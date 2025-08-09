@@ -2,4 +2,4 @@
 .env
 test/*.xls
 tasks.txt
-imgs/*.png
+images/*.png

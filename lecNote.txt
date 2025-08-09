@@ -71,4 +71,23 @@ any one ==> acsess on repo ==> collaborator ==> setting : collaborators=>  userN
 ====> file ==>git ignore  ==> ignore files , folders ==> didn't upload (push) files 
 
 
- 
+ ==> pages ==> publish code on git hub
+ /**
+ * repo => public
+ * index.html ==> not in any file 
+
+ */
+
+ =================>
+ create account ==> git hub ==> 
+git init
+ git add .
+ git commit -m ""   ------------> Error hangle configration mail , user name
+
+ git remote add origin repo_link  -------
+ git push origin master  =========>  -----------
+
+ ===================================== Handle configration Account
+
+ git config --global user.name "iti"
+ git config --global user.email "iti@gmail.com"
