@@ -68,4 +68,7 @@ any one ==> acsess on repo ==> collaborator ==> setting : collaborators=>  userN
 ================> README.md ==> file ==> mark down language ==> text 
 
 
+====> file ==>git ignore  ==> ignore files , folders ==> didn't upload (push) files 
+
+
  

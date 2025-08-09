@@ -1,0 +1,4 @@
+*.pdf
+.env
+./imgs/*.png
+./imgs/*.{jpg,png,gif}
