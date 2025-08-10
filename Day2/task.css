@@ -1,6 +1,7 @@
 /* ================= Base style ============ */
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -52,11 +53,9 @@ p {
   --color-hero-gradient: to right, rgba(16, 26, 48, 0.7) 0%,
     rgba(16, 26, 48, 0.7) 12%, #101a31 91%, #101a31 100%;
   --color-button-gradient: linear-gradient(to left, #c79f88, #b6876b, #b6876b);
-
   /* Font Families */
   --font-primary: "Montserrat", sans-serif;
   --font-heading: "Josefin Sans", sans-serif;
-
   /* Font Sizes */
   --fs-base: 1rem;
   /* 16px */
@@ -72,7 +71,6 @@ p {
   /* 56px */
   --fs-xxl: 4.75rem;
   /* 76px */
-
   /* Spacing */
   --spacing-xs: 15px;
   --spacing-sm: 25px;
@@ -80,62 +78,145 @@ p {
   --spacing-lg: 45px;
   --spacing-xl: 60px;
   --spacing-xxl: 85px;
-
   /* Sizes */
   --button-padding: 32px 65px;
   --border-radius: 4px;
-
   /* Shadows */
   --shadow-preloader: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
   --shadow-header: 0 10px 15px rgba(25, 25, 25, 0.1);
 }
-.contact-form {
-  width: 800px;
-  height: 470px;
+
+/* header */
+
+/* nesting */
+
+.header {
+  background-color: var(--color-bg-light);
+  .header__logo-link {
+    float: left;
+    margin: var(--spacing-sm) var(--spacing-xxl);
+  }
+  .header__nav {
+    float: right;
+    .header__nav-list {
+      display: inline-block;
+      .header__nav-item {
+        display: inline-block;
+        margin: 0 var(--spacing-sm);
+        font-size: var(--fs-small);
+        font-weight: 600;
+        .header__nav-link {
+          color: var(--color-text);
+        }
+      }
+    }
+    .header__nav-visit {
+      background-color: var(--color-primary);
+      padding: var(--button-padding);
+      margin-left: var(--spacing-xl);
+    }
+  }
 }
-.contact-title {
-  line-height: 32px;
-  font-size: 27px;
-  font-weight: 600;
-  word-spacing: 0px;
+
+.contact-container {
+  background-image: url("imgs/footer-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  .contact-txt {
+    float: left;
+    padding-left: 200px;
+    padding-top: 100px;
+    color: aliceblue;
+    h2 {
+      font-size: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
 }
-.contact-form-textarea {
-  height: 185px;
-  width: 763px;
-  border: 1px solid #e5e6e9;
-  padding: 4px 8px 4px 18px;
-  font-size: 20px;
-  line-height: 20px;
+
+.video {
+  background-image: url(imgs/video-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 577px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .icon-container {
+    width: 250px;
+    height: 250px;
+    background-color: #be927832;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    i {
+      font-size: 25px;
+      color: white;
+      width: 100px;
+      height: 100px;
+      background-color: #be9278;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      border: 3px solid white;
+    }
+  }
 }
-.name-email-section input {
-  display: inline-block;
-  width: 370px;
-  height: 48px;
-  border: 1px solid #e5e6e9;
-  padding: 4px 10px;
-  font-size: 13px;
-  line-height: 20px;
+
+/* Comment Section Style start  */
+.Comments__container {
+  width: 75%;
+  margin: 25px auto;
+  padding: 10px;
+  .comments__area {
+    /* width: 80%; */
+
+    .comment_item {
+      display: flex;
+      /* flex-wrap: nowrap; */
+      flex-direction: row;
+      justify-content: space-between;
+      p {
+        color: #adabbb;
+      }
+      .owner-img {
+      }
+      .comment-content {
+        margin-left: 25px;
+        .comment_item-data {
+          display: flex;
+          justify-content: space-between;
+
+          div {
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+
+            .comment_owner-name {
+              text-decoration: none;
+              font-size: medium;
+              font-weight: bold;
+              margin-top: 15px;
+
+              color: black;
+            }
+          }
+          a {
+            text-decoration: none;
+            font-size: medium;
+            font-weight: bold;
+            margin-top: 15px;
+            color: #adabbb;
+            padding: 2px;
+          }
+        }
+      }
+    }
+  }
 }
-.subject {
-  width: 770px;
-  height: 48px;
-  padding: 4px 8px;
-  line-height: 20px;
-  font-size: 13px;
-  border: 1px solid #e5e6e9;
-}
-.submit {
-  padding: 18px 44px;
-  border: 1px solid #be9278;
-  display: block;
-  cursor: pointer;
-  text-align: center;
-  margin-top: 10px;
-  color: #be9278;
-  background-color: #fff;
-}
-.submit:hover {
-  background-color: #be9278;
-  color: #e5e6e9;
-  transition: all 300ms;
-}
+
+/* Comment Section Style end */
