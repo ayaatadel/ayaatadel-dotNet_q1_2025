@@ -1,0 +1,7 @@
+===> Agenda 
+1- Branches
+2- Commit (delete commit ==> with content , without content)
+3- pull request ==> from remote repo
+4- stashing (intervies question)
+5- organization 
+6- self study (fork)
