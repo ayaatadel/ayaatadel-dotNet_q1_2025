@@ -42,6 +42,7 @@
       /* width: 70%; */
   /* }  */
 }
+
 /* Instagram images container */
 .Follow-us {
   display: flex;
@@ -60,10 +61,8 @@
   height: auto;
   display: block;
   object-fit: cover;
-<<<<<<< HEAD
->>>>>>> 6592547e38bd8a943a9b7370c1120d24fd7d544e
-=======
->>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
+
+
 }
 
 
