@@ -5,3 +5,49 @@
 4- stashing (intervies question)
 5- organization 
 6- self study (fork)
+
+
+======================================>
+Branches   ===> feature  ==> naming of branch ==> feateure-navbar 
+
+===> Master , Main  ==> Branch (main branch) ===> all code  ==> correct 100%100
+
+web site (home) ===> navbar , content , footer  
+==> nada : navbar   ==> New feateure   ==> feateure-navbar 
+==> abdelrahman : content  ==>  feateure-content
+==> mahmoud : footer ==>  feateure-footer
+
+============================>
+list all branches ===> git branch
+
+====> Head pointer ===> pointer ==> * ==> * master ==> all chnages ==> in master
+===> Create branch ==> git branch feateure-navbar  
+
+---- after create branch 
+/*
+create branch ==> onther branch
+
+feateure-navbar   ===> master ====> all commits + chages on master ===> added to  feateure-navbar
+
+===> changes (master)    ===>  alone
+===> changes (feateure-navbar)   ==> alone
+*/  
+
+
+===> switch from branch to another branch ==> git switch branchName
+=****** => switch to branch ==> changes you made on current bracnh ==> save(add , commit)
+git add .
+git commit -m "msg"
+
+==================>
+merge between two branches
+master , navbar 
+
+--> add changes in master =>navbar
+====> git switch navbar
+git status ===> changes (add , commit )
+git merge master
+
+
+
+
