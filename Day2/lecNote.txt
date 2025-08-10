@@ -65,3 +65,12 @@ add branch feateure-navbar in local to remote ==> git push origin feateure-navba
 
 ==================>
 gragh => getlens ==> graph ==>status 
+====>
+
+merge local ==> branches in local 
+merge in remote ===> changes 
+
+git switch your branch 
+git pull origin re-branch  ==> pull all chnges in remote branh ==> your branch
+
+====> 
