@@ -10,6 +10,7 @@
     .service-head {
       font-size: var(--fs-xl);
     }
+
     .service-p {
       font-size: var(--fs-medium);
       text-align: center;
@@ -21,9 +22,11 @@
     margin-top: 20px;
   }
 }
+
 .services img {
   margin-bottom: 20px;
 }
+
 .services-text-headers {
   font-size: 25px;
   margin-top: 15px;
@@ -39,56 +42,134 @@
       /* width: 70%; */
   /* }  */
 }
-/* Comment Section Style start  */
-.Comments__container {
-  width: 75%;
-  margin: 25px auto;
-  padding: 10px;
-  .comments__area {
-    /* width: 80%; */
 
-    .comment_item {
-      display: flex;
-      /* flex-wrap: nowrap; */
-      flex-direction: row;
-      justify-content: space-between;
-      p {
-        color: #adabbb;
-      }
-      .owner-img {
-      }
-      .comment-content {
-        margin-left: 25px;
-        .comment_item-data {
-          display: flex;
-          justify-content: space-between;
-
-          div {
-            width: 30%;
-            display: flex;
-            justify-content: space-between;
-
-            .comment_owner-name {
-              text-decoration: none;
-              font-size: medium;
-              font-weight: bold;
-              margin-top: 15px;
-
-              color: black;
-            }
-          }
-          a {
-            text-decoration: none;
-            font-size: medium;
-            font-weight: bold;
-            margin-top: 15px;
-            color: #adabbb;
-            padding: 2px;
-          }
-        }
-      }
-    }
-  }
+/* Instagram images container */
+.Follow-us {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 0;
 }
 
-/* Comment Section Style end */
+.Follow-us section {
+  flex: 1;
+  max-width: 500px;
+}
+
+.Follow-us img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+
+
+}
+
+
+/* Tasneem-start-footer-info-style */
+
+.footer-content {
+  float: left;
+  margin-top: 80px;
+  margin-left: 25px;
+}
+
+.content-1 {
+  float: left;
+  line-height: 40px;
+
+}
+
+.footer-p {
+  color: white;
+  font-size: var(--fs-medium);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 300px;
+}
+
+.phone-bigger,
+.phone-smaller {
+  color: var(--color-primary);
+}
+
+.phone-bigger a,
+.phone-smaller a {
+  color: var(--color-primary);
+
+}
+
+.phone-bigger a:hover,
+.phone-smaller a:hover {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--color-primary);
+}
+
+.phone-bigger {
+  font-size: var(--fs-large);
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.footer-header {
+  color: var(--color-primary);
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.footer-list li a {
+  color: #fff;
+  margin-left: 25px;
+  line-height: 40px;
+
+}
+
+.content-2 {
+  float: left;
+  margin-top: 25px;
+  margin-left: 130px;
+
+
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 60px;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.twitter,
+.facebook,
+.pinterest {
+  background-color: #192242;
+}
+
+
+.icon:hover {
+  opacity: 0.4;
+}
+
+
+.copy-rights {
+  color: var(--color-bg-light);
+  margin-top: 170px;
+
+}
+
+.copy-rights span {
+  color: #b6876b;
+}
+
+/* end-footer-info-style */
