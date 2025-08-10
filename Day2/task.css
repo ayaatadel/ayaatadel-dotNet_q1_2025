@@ -1,0 +1,38 @@
+.offers__content {
+      padding-left: var(--spacing-lg);
+      position: relative;
+
+
+      .offers__number {
+
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: var(--color-primary-light);
+        color: var(--color-text-light);
+        display: inline-block;
+
+        text-align: center;
+        line-height: 35px;
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        transition: all 0.7s;
+
+
+      }
+
+      .offers__heading {
+
+        font-size: var(--fs-large);
+        color: var(--color-text);
+        margin-bottom: var(--spacing-xs);
+        transition: color 0.7s;
+      }
+
+      .offers__text {
+        width: 80%;
+      }
+
+
+    }
