@@ -903,3 +903,41 @@ margin-top: 30px;
 }
 
 /* end-footer-info-style */
+
+/* Nada Mosalam -  The beginning of the section (about-our-tailor) */
+
+.grandsection{
+background-color: #F2E1D9;
+width: 1500px;
+height: 600px;
+position: relative;
+}
+#imgN{
+  position: absolute;
+  top: 200px;
+  left: 200px;
+width: 500px;
+}
+
+.txtN{
+  position: absolute;
+  right: 300px;
+  top: 260px;
+}
+
+#head{
+  font-size: 30px;
+}
+#p1, #p2
+{
+  margin: 20px;
+}
+
+#btn{
+  margin: 20px;
+  padding: 20px;
+  background-color: #b6876b;
+  border: none;
+}
+
+/* Nada Mosalam -  The End of the section (about-our-tailor) */
