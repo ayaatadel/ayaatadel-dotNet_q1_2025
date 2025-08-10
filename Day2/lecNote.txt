@@ -24,5 +24,15 @@ list all branches ===> git branch
 ===> Create branch ==> git branch feateure-navbar  
 
 ---- after create branch 
+/*
+create branch ==> onther branch
+
+feateure-navbar   ===> master ====> all commits + chages on master ===> added to  feateure-navbar
+
+===> changes (master)    ===>  alone
+===> changes (feateure-navbar)   ==> alone
+*/  
+
+
 ===> switch from branch to another branch ==> git switch branchName
 =****** => switch to branch ==> changes you made on current bracnh ==> save(add , commit)
