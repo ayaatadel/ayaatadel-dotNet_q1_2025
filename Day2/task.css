@@ -22,7 +22,6 @@ a {
   text-decoration: none;
 }
 
-
 html {
   font-family: var(--font-primary);
 }
@@ -42,7 +41,7 @@ p {
 }
 
 :root {
-    --color-primary: #be9278;
+  --color-primary: #be9278;
   --color-primary-light: #c6a16e;
   --color-secondary: #101a31;
   --color-secondary-light: #10285d;
@@ -79,35 +78,17 @@ p {
   /* Sizes */
   --button-padding: 32px 65px;
   --border-radius: 4px;
-  
 
-    /* Shadows */
+  /* Shadows */
   --shadow-preloader: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
   --shadow-header: 0 10px 15px rgba(25, 25, 25, 0.1);
-
 }
 
-
-
-/* =============== Components =========== */
-
-
-
-
-/* service */
-
-/* .footer {
-  background-color: var(--color-secondary-light);
-  color: var(--color-text-light);
-  text-align: center;
-  padding: var(--spacing-md);
-} */
- 
 .services {
   margin: 100px auto;
- width: 70%;
-  
- .services-text {
+  width: 70%;
+
+  .services-text {
     width: 40%;
     margin: var(--spacing-xxl) auto;
     text-align: center;
@@ -119,7 +100,6 @@ p {
     }
   }
   .why-service {
-  
     margin-bottom: 100px;
     width: 100%;
     text-align: center;
@@ -130,41 +110,33 @@ p {
     .service-p {
       font-size: var(--fs-medium);
       text-align: center;
-      
     }
-
   }
 
   .services-text-p {
     font-size: var(--fs-small);
     margin-top: 20px;
-    
   }
 }
 .services img {
   margin-bottom: 20px;
-  
 }
 .services-text-headers {
   font-size: 25px;
- margin-top: 15px;
+  margin-top: 15px;
 }
 
-
 .services-blocks {
-  width: 22%; 
+  width: 22%;
   /* transform: translateY(600px); */
   /* opacity: 0; */
-  padding-left: 0; 
-
+  padding-left: 0;
 }
 
 .all-services {
   display: flex;
-  justify-content: center; 
-  align-items: flex-start; 
-  flex-wrap: wrap; 
-  gap: 40px; 
-}
-
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
 }
