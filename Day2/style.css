@@ -39,6 +39,7 @@
       /* width: 70%; */
   /* }  */
 }
+<<<<<<< HEAD
 body {
   
     font-family: Arial, sans-serif;
@@ -75,4 +76,24 @@ p {
     font-size: 14px;
     color: #666;
     line-height: 1.6;
+=======
+/* Instagram images container */
+.Follow-us {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.Follow-us section {
+  flex: 1;
+  max-width: 500px;
+}
+
+.Follow-us img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+>>>>>>> 6592547e38bd8a943a9b7370c1120d24fd7d544e
 }
