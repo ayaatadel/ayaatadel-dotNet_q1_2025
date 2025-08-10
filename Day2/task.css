@@ -1,5 +1,6 @@
 .contact-container {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-image: url("imgs/footer-bg.png");
     background-size: cover;
     background-position: center;
@@ -39,6 +40,8 @@
   /* box-sizing: border-box; */
 }
 =======
+=======
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
   background-image: url("imgs/footer-bg.png");
   background-size: cover;
   background-position: center;
@@ -57,7 +60,11 @@ body {
     float: left;
     padding-left: 200px;
     padding-top: 100px;
+<<<<<<< HEAD
     color: rgb(34, 53, 70);
+=======
+    color: aliceblue;
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
     h2 {
       font-size: 50px;
       font-family: Arial, Helvetica, sans-serif;
@@ -65,7 +72,10 @@ body {
   }
 }
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+<<<<<<< HEAD
 >>>>>>> 6592547e38bd8a943a9b7370c1120d24fd7d544e
+=======
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
 
 .clearfix {
   clear: both;
@@ -116,6 +126,7 @@ p {
   --font-primary: "Montserrat", sans-serif;
   --font-heading: "Josefin Sans", sans-serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* Font Sizes */
   --fs-base: 1rem;
   /* 16px */
@@ -132,6 +143,8 @@ p {
   --fs-xxl: 4.75rem;
   /* 76px */
 =======
+=======
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
 
   /* Font Sizes */
   --fs-base: 1rem; /* 16px */
@@ -142,7 +155,10 @@ p {
   --fs-xl: 3.5rem; /* 56px */
   --fs-xxl: 4.75rem; /* 76px */
 
+<<<<<<< HEAD
 >>>>>>> 6592547e38bd8a943a9b7370c1120d24fd7d544e
+=======
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
   /* Spacing */
   --spacing-xs: 15px;
   --spacing-sm: 25px;
@@ -154,9 +170,13 @@ p {
   --button-padding: 32px 65px;
   --border-radius: 4px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6592547e38bd8a943a9b7370c1120d24fd7d544e
+=======
+
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
   /* Shadows */
   --shadow-preloader: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
   --shadow-header: 0 10px 15px rgba(25, 25, 25, 0.1);
@@ -269,6 +289,7 @@ p {
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .contact{
   display: inline-block;
@@ -300,6 +321,8 @@ p {
       }
       p{
 =======
+=======
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
 .services {
   margin: 100px auto;
   .services-text {
@@ -322,6 +345,28 @@ p {
   }
 }
 
+<<<<<<< HEAD
+=======
+.contact-form-info {
+  position: relative;
+  min-height: 500px;
+}
+
+.contact-form {
+  position: absolute;
+  left: 200px;
+  top: 0;
+  width: 50%;
+}
+
+.contact {
+  position: absolute;
+  right: 200px;
+  top: 0;
+  width: 40%;
+}
+
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
 .contact {
   display: inline-block;
   position: relative;
@@ -350,12 +395,16 @@ p {
       h3 {
       }
       p {
+<<<<<<< HEAD
 >>>>>>> 6592547e38bd8a943a9b7370c1120d24fd7d544e
+=======
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
         font-size: 16px;
       }
     }
   }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -451,6 +500,9 @@ p {
   --shadow-preloader: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
   --shadow-header: 0 10px 15px rgba(25, 25, 25, 0.1);
 }
+=======
+
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
 .contact-form {
   width: 800px;
   height: 470px;
@@ -502,7 +554,10 @@ p {
   transition: all 300ms;
 }
 
+<<<<<<< HEAD
 >>>>>>> 6592547e38bd8a943a9b7370c1120d24fd7d544e
+=======
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
 /* Comment Section Style start  */
 .Comments__container {
   width: 75%;
@@ -557,7 +612,10 @@ p {
 
 /* Comment Section Style end */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
 .services-blocks {
   width: 22%;
   /* transform: translateY(600px); */
@@ -572,4 +630,7 @@ p {
   flex-wrap: wrap;
   gap: 40px;
 }
+<<<<<<< HEAD
 >>>>>>> 6592547e38bd8a943a9b7370c1120d24fd7d544e
+=======
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae

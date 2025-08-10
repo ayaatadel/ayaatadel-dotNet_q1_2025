@@ -40,6 +40,7 @@
   /* }  */
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 body {
   
     font-family: Arial, sans-serif;
@@ -77,6 +78,8 @@ p {
     color: #666;
     line-height: 1.6;
 =======
+=======
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
 /* Instagram images container */
 .Follow-us {
   display: flex;
@@ -95,5 +98,8 @@ p {
   height: auto;
   display: block;
   object-fit: cover;
+<<<<<<< HEAD
 >>>>>>> 6592547e38bd8a943a9b7370c1120d24fd7d544e
+=======
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
 }
