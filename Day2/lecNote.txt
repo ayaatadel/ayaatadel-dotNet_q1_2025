@@ -62,3 +62,6 @@ add branch feateure-navbar in local to remote ==> git push origin feateure-navba
 ----> delete branch ==> you be on another branch
 ----> n.commits of this branch <= n.commits of master
 
+
+==================>
+gragh => getlens ==> graph ==>status 
