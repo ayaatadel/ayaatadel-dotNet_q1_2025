@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.customers {
+  width: 50%;
+  position: relative;
+  margin: 100px auto;
+
+  .quates {
+    position: absolute;
+    top: -70px;
+    left: -80px;
+    z-index: -1;
+
+  }
+
+  p {
+    font-family: Montserrat, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+
+    color: rgb(1, 10, 68);
+  }
+
+  .customer-details {
+    margin: 50px 0;
+
+    .customer_img_container {
+      float: left;
+
+    }
+
+    .customer-info {
+      float: left;
+      font-family: Montserrat, sans-serif;
+margin-top: 30px;
+      h2 {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 33px;
+        color: rgb(29, 37, 71);
+      }
+
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(100, 109, 119);
+      }
+    }
+  }
+}
