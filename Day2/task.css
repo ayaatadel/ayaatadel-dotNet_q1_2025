@@ -401,28 +401,28 @@ p {
   position: relative !important;
   min-height: 500px !important;
   width: 100% !important;
-  background-color: #10285d !important;
 }
 
 .contact-form {
   position: absolute;
-  left: 50px;
-  top: 40px;
-  width: 45%;
-  height: auto;
-  max-width: 600px;
-  box-sizing: border-box;
-}
-
-.contact {
-  position: absolute;
-  right: 50px;
+  left: 0;
   top: 0;
   width: 40%;
   height: auto;
-  max-width: 450px;
-  box-sizing: border-box;
-  color: #fff;
+}
+
+.contact_side_form {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40%;
+  height: auto;
+  background-color: #10285d;
+}
+.contact-information {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .contact-info {
