@@ -1,44 +1,105 @@
-body{
-    background-color: antiquewhite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-section p {
-    display: inline-block;
-    background-color: blanchedalmond;
-}
-section{
-    width: 30%;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.6;
-}
-h1{
-    color: rgb(52, 52, 109);
-    background-color: black;
-}
-p{
-    color: rgb(52, 52, 109);
-    text-align: center;
-    line-height: 1.6;
-     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-}
-img{
+.services {
+  margin: 100px auto;
+  width: 70%;
+
+  .why-service {
+    margin-bottom: 100px;
     width: 100%;
-    height: 100%;
-    display: block;
-}
-h2{
-   padding: 5;
-   color: rgb(52, 52, 109);
-   font-size: small;
     text-align: center;
-    font-weight: 500;
+
+    .service-head {
+      font-size: var(--fs-xl);
+    }
+    .service-p {
+      font-size: var(--fs-medium);
+      text-align: center;
+    }
+  }
+
+  .services-text-p {
+    font-size: var(--fs-small);
+    margin-top: 20px;
+  }
+}
+.services img {
+  margin-bottom: 20px;
+}
+.services-text-headers {
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.services-blocks {
+  width: 24%;
+  display: inline-block;
+  transform: translateY(600px);
+  opacity: 0;
+  padding-left: 70px;
+  /* .services-text {
+      /* width: 70%; */
+  /* }  */
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+body {
+  
+    font-family: Arial, sans-serif;
+    background-color: #eceff1; /* لون الخلفية الرمادي */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error-container {
+    text-align: center;
+    max-width: 600px;
+    color: #555;
+}
+
+.error-icon {
+    font-size: 40px;
+    background-color: #999;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto 15px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+=======
+=======
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
+/* Instagram images container */
+.Follow-us {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.Follow-us section {
+  flex: 1;
+  max-width: 500px;
+}
+
+.Follow-us img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+<<<<<<< HEAD
+>>>>>>> 6592547e38bd8a943a9b7370c1120d24fd7d544e
+=======
+>>>>>>> 71b11996035b449e5b650d7803fecfa44ac1e8ae
 }
