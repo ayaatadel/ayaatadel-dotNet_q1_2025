@@ -1,0 +1,71 @@
+/* base style */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+p {
+  line-height: 30px;
+}
+
+:root {
+  /* Font Families */
+  --font-primary: "Montserrat", sans-serif;
+  --font-heading: "Josefin Sans", sans-serif;
+
+  /* Font Sizes */
+  --fs-base: 1rem; /* 16px */
+  --fs-xs: 0.875rem; /* 14px */
+  --fs-small: 0.938rem; /* 15px */
+  --fs-medium: 1.125rem; /* 18px */
+  --fs-large: 1.875rem; /* 30px */
+  --fs-xl: 3.5rem; /* 56px */
+  --fs-xxl: 4.75rem; /* 76px */
+
+  /* Spacing */
+  --spacing-xs: 15px;
+  --spacing-sm: 25px;
+  --spacing-md: 30px;
+  --spacing-lg: 45px;
+  --spacing-xl: 60px;
+  --spacing-xxl: 85px;
+
+  /* Sizes */
+  --button-padding: 32px 65px;
+  --border-radius: 4px;
+}
+
+/* services */
+.services {
+  width: 80%;
+  margin: var(--spacing-lg) auto;
+  .services-text {
+    width: 40%;
+    margin: var(--spacing-xxl) auto;
+    text-align: center;
+    h2 {
+      font-size: var(--fs-xl);
+    }
+    p {
+      font-size: var(--fs-medium);
+    }
+  }
+}
