@@ -65,3 +65,22 @@ add branch feateure-navbar in local to remote ==> git push origin feateure-navba
 
 ==================>
 gragh => getlens ==> graph ==>status 
+
+
+
+================================> merge 
+two tasks ==> navbar , content 
+-> branch : navbar
+-> branch : content
+
+-> master (team ==> structure)
+
+git branch navbar 
+git push origin navbar   // remote
+git switch navbar
+git pull origin master ===>//  pull all changes (code) 
+====================================>
+pull remote (pull request)
++button of pull request 
+==> branch (base)<- (branch)
+            navbar <- master
