@@ -776,17 +776,40 @@ p {
   }
 }
 
+/* Sohayla Elkersh - footer / footer map */
+.footer {
+  background: url(imgs/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+
+#map-img {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+/* Sohayla Elkersh - footer end */
+
 /* Tasneem-start-footer-info-style */
 
 .footer-content {
   float: left;
   margin-top: 80px;
   margin-left: 25px;
+  z-index: 20;
+  position: absolute;
+  right: 50px;
 }
 
 .content-1 {
   float: left;
   line-height: 40px;
+  position: absolute;
+  right: 150px;
 }
 
 .footer-p {
@@ -805,6 +828,7 @@ p {
 .phone-bigger a,
 .phone-smaller a {
   color: var(--color-primary);
+
 }
 
 .phone-bigger a:hover,
@@ -830,12 +854,15 @@ p {
   color: #fff;
   margin-left: 25px;
   line-height: 40px;
+
 }
 
 .content-2 {
   float: left;
   margin-top: 25px;
   margin-left: 130px;
+
+
 }
 
 .social-icons {
@@ -861,13 +888,16 @@ p {
   background-color: #192242;
 }
 
+
 .icon:hover {
   opacity: 0.4;
 }
 
+
 .copy-rights {
   color: var(--color-bg-light);
   margin-top: 170px;
+
 }
 
 .copy-rights span {
@@ -875,6 +905,8 @@ p {
 }
 
 /* end-footer-info-style */
+
+
 
 /* Nada Mosalam -  The beginning of the section (about-our-tailor) */
 
