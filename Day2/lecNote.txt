@@ -105,5 +105,14 @@ esraa  ==> cart
 ==============> stashing ==>
 change in branch 
 move to another branch without add , commit
-move to another branch without add , commit
-move to another branch without add , commit
+
+
+===> 
+create stash : git stash save
+create list: git stash list
+remove stash from stask: git stash clear
+revert stash (show content): git stash pop ==> remove from stack
+revert stash (show content): git stash apply 
+
+remove specific stash ==> git stash drop stash@{0}
+show file has stash  ==> git stash show
