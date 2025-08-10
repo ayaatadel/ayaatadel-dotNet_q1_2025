@@ -1,12 +1,27 @@
-/* base style */
+/* ================= Base style ============ */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
 }
 
 .clearfix {
   clear: both;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 
 html {
   font-family: var(--font-primary);
@@ -27,6 +42,19 @@ p {
 }
 
 :root {
+    --color-primary: #be9278;
+  --color-primary-light: #c6a16e;
+  --color-secondary: #101a31;
+  --color-secondary-light: #10285d;
+  --color-text: #101a31;
+  --color-text-light: #fff;
+  --color-bg-light: #fff;
+  --color-gray-light: #f7f7f7;
+  --color-bg-pink: #f2e1d9;
+  --color-border: #eee;
+  --color-hero-gradient: to right, rgba(16, 26, 48, 0.7) 0%,
+    rgba(16, 26, 48, 0.7) 12%, #101a31 91%, #101a31 100%;
+  --color-button-gradient: linear-gradient(to left, #c79f88, #b6876b, #b6876b);
   /* Font Families */
   --font-primary: "Montserrat", sans-serif;
   --font-heading: "Josefin Sans", sans-serif;
@@ -51,13 +79,35 @@ p {
   /* Sizes */
   --button-padding: 32px 65px;
   --border-radius: 4px;
+  
+
+    /* Shadows */
+  --shadow-preloader: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
+  --shadow-header: 0 10px 15px rgba(25, 25, 25, 0.1);
+
 }
 
-/* services */
+
+
+/* =============== Components =========== */
+
+
+
+
+/* service */
+
+/* .footer {
+  background-color: var(--color-secondary-light);
+  color: var(--color-text-light);
+  text-align: center;
+  padding: var(--spacing-md);
+} */
+ 
 .services {
-  width: 80%;
-  margin: var(--spacing-lg) auto;
-  .services-text {
+  margin: 100px auto;
+ width: 70%;
+  
+ .services-text {
     width: 40%;
     margin: var(--spacing-xxl) auto;
     text-align: center;
@@ -68,4 +118,53 @@ p {
       font-size: var(--fs-medium);
     }
   }
+  .why-service {
+  
+    margin-bottom: 100px;
+    width: 100%;
+    text-align: center;
+
+    .service-head {
+      font-size: var(--fs-xl);
+    }
+    .service-p {
+      font-size: var(--fs-medium);
+      text-align: center;
+      
+    }
+
+  }
+
+  .services-text-p {
+    font-size: var(--fs-small);
+    margin-top: 20px;
+    
+  }
+}
+.services img {
+  margin-bottom: 20px;
+  
+}
+.services-text-headers {
+  font-size: 25px;
+ margin-top: 15px;
+}
+
+
+.services-blocks {
+  width: 22%; 
+  /* transform: translateY(600px); */
+  /* opacity: 0; */
+  padding-left: 0; 
+
+}
+
+.all-services {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+  gap: 40px; 
+}
+
 }
