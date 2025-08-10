@@ -234,14 +234,12 @@ p {
 }
 
 .hero {
-    background: linear-gradient(var(--color-hero-gradient)), url(imgs/hero_bg.png);
-    height: 850px;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    .hero__content
-
-{
+  background: linear-gradient(var(--color-hero-gradient)), url(imgs/hero_bg.png);
+  height: 850px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  .hero__content {
     position: absolute;
     color: var(--color-text-light);
     top: 20%;
@@ -249,32 +247,26 @@ p {
     width: 40%;
     /* background-color: lightblue; */
 
-    .hero__heading
+    .hero__heading {
+      font-size: var(--fs-xxl);
+      margin: var(--spacing-sm) 0;
+    }
 
-{
-    font-size: var(--fs-xxl);
-    margin: var(--spacing-sm) 0;
-}
+    .hero__text {
+      width: 85%;
+    }
+  }
 
-.hero__text {
-    width: 85%;
-}
-
-}
-
-.hero__img-container {
+  .hero__img-container {
     position: absolute;
     right: 0;
     bottom: 0;
     height: 750px;
-    .hero__img
-
-{
-    height: 100%;
-    width: 660px;
-}
-
-}
+    .hero__img {
+      height: 100%;
+      width: 660px;
+    }
+  }
 }
 
 /* ================= */
@@ -845,7 +837,6 @@ p {
 .phone-bigger a,
 .phone-smaller a {
   color: var(--color-primary);
-
 }
 
 .phone-bigger a:hover,
@@ -871,15 +862,12 @@ p {
   color: #fff;
   margin-left: 25px;
   line-height: 40px;
-
 }
 
 .content-2 {
   float: left;
   margin-top: 25px;
   margin-left: 130px;
-
-
 }
 
 .social-icons {
@@ -905,16 +893,13 @@ p {
   background-color: #192242;
 }
 
-
 .icon:hover {
   opacity: 0.4;
 }
 
-
 .copy-rights {
   color: var(--color-bg-light);
   margin-top: 170px;
-
 }
 
 .copy-rights span {
@@ -922,8 +907,6 @@ p {
 }
 
 /* end-footer-info-style */
-
-
 
 /* Nada Mosalam -  The beginning of the section (about-our-tailor) */
 
@@ -990,3 +973,7 @@ p {
 }
 
 /* Nada Mosalam -  The End of the section (about-our-tailor) */
+
+.adjust {
+  margin: 20px auto;
+}
