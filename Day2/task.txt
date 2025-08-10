@@ -1,4 +1,33 @@
-Ahmed 
-mahmoud
-nada
-abdelrahman
+task1
+===> generate bracnh with task-name  
+==> after code ==> push on yoyr brach ==> merge your branch with master
+task 2 ==> fork , organization 
+
+
+https://preview.colorlib.com/theme/tailor/index.html  ==> home
+Abdelmonem Saad Abdelmonem Metiry   ===> navbar-items-li 
+Abdelraheem Mohamed Mohamed Elfeky  ==> navbar-logo-search 
+Abdelrahman Farid Hassan Hathout ==> header-img
+Abdelrhman Ibrahim Mohamed Almeldeen  ==> header-text
+Abdelrhman Tarek Shawky Elsayed  ==> cards-img
+Abdulrahman Ahmed Gamal Eldeen   ==> cards-content
+Ahmed Fergany Abd-Alkader Hegazy  ==> video
+Ahmed Mahmoud Abdelaty Mousa  ==> text-our-service
+Ahmed Mostafa Elahmady Elhwary ==> our-service-cards
+=========================================================>https://preview.colorlib.com/theme/tailor/contact.html
+Alaa Mohammed Erfan Hamama =>contact-img ===>
+Esraa Mohammed Saeed Eesa=>contact-text
+Essam Adel Ahmed Soliman => section-text
+Mahmoud Adel Abdelhamied Ibrahim =>contact-form
+Mahmoud Badr Abdelfattah Hassan =>contact-information
+Mahmoud Mustafa Abdelhamid Sakr =>comments 
+Mahmoud Shrife Ebrahim Elshourbagy =>  sample-button (https://preview.colorlib.com/theme/tailor/elements.html)
+Mariam Sameh Ibrahim Aldukrory => text-after-sample-buttons
+Mohamed Sobhe Ahmed Mohamed =>table-flags
+Muhammed Zaghloul Abdelmoneim Desouky => image-galary
+Mustafa Said Ahmed Elhag Mohamed => img ==> imgaes-text (https://preview.colorlib.com/theme/tailor/blog.html)
+Nada Abdalla Lotfy Mosalam  => about-our-tailor =>https://preview.colorlib.com/theme/tailor/about.html
+Nada Elsayed Mohamed Qandel =>silder (https://preview.colorlib.com/theme/tailor/about.html)
+Salma Muhammad Abdelrahman Ebraheem =>follow-in-instegram =>https://preview.colorlib.com/theme/tailor/about.html
+Sohayla Muhammed Hamdy Elkersh => footer-map
+Tasneem Tarek Fathy Shendy => footer-informatio
