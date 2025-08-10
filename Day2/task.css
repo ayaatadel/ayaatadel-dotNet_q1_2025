@@ -1,26 +1,19 @@
 .contact-container {
-    background-image: url("imgs/footer-bg.png");
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-
-    .contact-txt {
-        float: left;
-        padding-left: 200px;
-        padding-top: 100px;
-        color: aliceblue;
-        h2{
-            font-size: 50px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    }
+  background-image: url("imgs/footer-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  /* ================= Base style ============ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
 }
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  /* box-sizing: border-box; */
-}
 
 .clearfix {
   clear: both;
@@ -70,21 +63,16 @@ p {
   /* Font Families */
   --font-primary: "Montserrat", sans-serif;
   --font-heading: "Josefin Sans", sans-serif;
+
   /* Font Sizes */
-  --fs-base: 1rem;
-  /* 16px */
-  --fs-xs: 0.875rem;
-  /* 14px */
-  --fs-small: 0.938rem;
-  /* 15px */
-  --fs-medium: 1.125rem;
-  /* 18px */
-  --fs-large: 1.875rem;
-  /* 30px */
-  --fs-xl: 3.5rem;
-  /* 56px */
-  --fs-xxl: 4.75rem;
-  /* 76px */
+  --fs-base: 1rem; /* 16px */
+  --fs-xs: 0.875rem; /* 14px */
+  --fs-small: 0.938rem; /* 15px */
+  --fs-medium: 1.125rem; /* 18px */
+  --fs-large: 1.875rem; /* 30px */
+  --fs-xl: 3.5rem; /* 56px */
+  --fs-xxl: 4.75rem; /* 76px */
+
   /* Spacing */
   --spacing-xs: 15px;
   --spacing-sm: 25px;
@@ -95,6 +83,7 @@ p {
   /* Sizes */
   --button-padding: 32px 65px;
   --border-radius: 4px;
+
   /* Shadows */
   --shadow-preloader: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
   --shadow-header: 0 10px 15px rgba(25, 25, 25, 0.1);
@@ -206,36 +195,55 @@ p {
     }
   }
 }
+.services {
+  margin: 100px auto;
+  .services-text {
+    width: 70%;
+    margin: var(--spacing-xxl) auto;
+    text-align: center;
+    h2 {
+      font-size: var(--fs-xl);
+    }
+    p {
+      font-size: var(--fs-medium);
+    }
+  }
+  img {
+    margin-bottom: 20px;
+  }
+  .services-text-headers {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+}
 
-.contact{
+.contact {
   display: inline-block;
   position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    left: 1100px;
-    margin-top: 60px;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  left: 1100px;
+  margin-top: 60px;
 
-  .contact-info{
+  .contact-info {
     margin-bottom: 20px;
-    .contact-info-icon{
+    .contact-info-icon {
       display: inline-block;
       position: relative;
       top: -10px;
-      i{
-       display: inline-block;
-       font-size: 35px;
-       opacity: .5;
-
-       }
+      i {
+        display: inline-block;
+        font-size: 35px;
+        opacity: 0.5;
+      }
     }
-    .contact-info-text{
+    .contact-info-text {
       display: inline-block;
       margin-left: 20px;
-      h3{
-      }
-      p{
+
+      p {
         font-size: 16px;
       }
     }
@@ -294,3 +302,17 @@ p {
 }
 
 /* Comment Section Style end */
+.services-blocks {
+  width: 22%;
+  /* transform: translateY(600px); */
+  /* opacity: 0; */
+  padding-left: 0;
+}
+
+.all-services {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
