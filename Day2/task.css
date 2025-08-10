@@ -1,3 +1,20 @@
+.contact-container {
+    background-image: url("imgs/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+    .contact-txt {
+        float: left;
+        padding-left: 200px;
+        padding-top: 100px;
+        color: aliceblue;
+        h2{
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   padding: 0;
@@ -131,6 +148,32 @@ p {
     }
   }
 }
+.hero {
+  background: linear-gradient(
+      to right,
+      rgba(16, 26, 48, 0.7) 0%,
+      rgba(16, 26, 48, 0.7) 12%,
+      #101a31 91%,
+      #101a31 100%
+    ),
+    url(imgs/hero_bg.png);
+  height: 850px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  .hero_img_container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 750px;
+
+    .hero_img {
+      height: 100%;
+      width: 660px;
+    }
+  }
+}
 
 .video {
   background-image: url(imgs/video-bg.png);
@@ -164,6 +207,40 @@ p {
   }
 }
 
+.contact{
+  display: inline-block;
+  position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    left: 1100px;
+    margin-top: 60px;
+
+  .contact-info{
+    margin-bottom: 20px;
+    .contact-info-icon{
+      display: inline-block;
+      position: relative;
+      top: -10px;
+      i{
+       display: inline-block;
+       font-size: 35px;
+       opacity: .5;
+
+       }
+    }
+    .contact-info-text{
+      display: inline-block;
+      margin-left: 20px;
+      h3{
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+  }
+}
 /* Comment Section Style start  */
 .Comments__container {
   width: 75%;
