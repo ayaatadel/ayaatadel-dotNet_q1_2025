@@ -1,55 +1,47 @@
-<<<<<<< HEAD
-.contact-container {
-    background-image: url("imgs/footer-bg.png");
-    background-size: cover;
-    background-position: center;
-    height: 400px;
+.services {
+  margin: 100px auto;
+ width: 70%;
 
-    .contact-txt {
-        float: left;
-        padding-left: 200px;
-        padding-top: 100px;
-        color: aliceblue;
-        h2{
-            font-size: 50px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+  .why-service {
+  
+    margin-bottom: 100px;
+    width: 100%;
+    text-align: center;
+
+    .service-head {
+      font-size: var(--fs-xl);
     }
-}
-=======
-.video {
-  background-image: url(imgs/video-bg.png);
-  background-size: cover;
-  background-position: center;
-  height: 577px;
+    .service-p {
+      font-size: var(--fs-medium);
+      text-align: center;
+      
+    }
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  .icon-container {
+  }
 
-    width: 250px;
-    height: 250px;
-    background-color: #be927832;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-
-      i {
-        font-size: 25px;
-        color: white;
-        width: 100px;
-        height: 100px;
-        background-color: #be9278;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-        border: 3px solid white;
-      }
+  .services-text-p {
+    font-size: var(--fs-small);
+    margin-top: 20px;
+    
   }
 }
+.services img {
+  margin-bottom: 20px;
+  
+}
+.services-text-headers {
+  font-size: 25px;
+ margin-top: 15px;
+}
 
->>>>>>> 5e789c28f68202d44f68e3a0cbb3bc0bc4d2258b
+
+.services-blocks {
+  width: 24%; 
+  display: inline-block;
+  transform: translateY(600px);
+  opacity: 0;
+  padding-left: 70px;
+      /* .services-text {
+      /* width: 70%; */
+    /* }  */
+}
