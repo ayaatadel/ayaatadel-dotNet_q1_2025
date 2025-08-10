@@ -43,10 +43,15 @@ git commit -m "msg"
 merge between two branches
 master , navbar 
 
---> add changes in master =>navbar
+--> add changes in master =>navbar  ============> navbar
 ====> git switch navbar
 git status ===> changes (add , commit )
 git merge master
+
+===============================> move all chnages in master
+git switch master 
+git status ===> changes (add , commit )
+git merge feateure-navbar
 
 
 
