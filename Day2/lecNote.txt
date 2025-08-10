@@ -68,6 +68,7 @@ gragh => getlens ==> graph ==>status
 
 
 
+
 ================================> merge 
 two tasks ==> navbar , content 
 -> branch : navbar
@@ -84,3 +85,14 @@ pull remote (pull request)
 +button of pull request 
 ==> branch (base)<- (branch)
             navbar <- master
+=======
+====>
+
+merge local ==> branches in local 
+merge in remote ===> changes 
+
+git switch your branch 
+git pull origin re-branch  ==> pull all chnges in remote branh ==> your branch
+
+====> 
+
