@@ -42,3 +42,40 @@ h2{
     text-align: center;
     font-weight: 500;
 }
+body {
+  
+    font-family: Arial, sans-serif;
+    background-color: #eceff1; /* لون الخلفية الرمادي */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error-container {
+    text-align: center;
+    max-width: 600px;
+    color: #555;
+}
+
+.error-icon {
+    font-size: 40px;
+    background-color: #999;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto 15px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
