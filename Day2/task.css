@@ -1,0 +1,6 @@
+.video {
+  background-image: url(Images/video-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 577px;
+}
