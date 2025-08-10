@@ -87,6 +87,21 @@ p {
 }
 
 
+
+/* =============== Components =========== */
+
+
+
+
+/* service */
+
+/* .footer {
+  background-color: var(--color-secondary-light);
+  color: var(--color-text-light);
+  text-align: center;
+  padding: var(--spacing-md);
+} */
+ 
 .services {
   margin: 100px auto;
  width: 70%;
@@ -125,12 +140,22 @@ p {
 
 
 .services-blocks {
-  width: 24%; 
-  display: inline-block;
-  transform: translateY(600px);
-  opacity: 0;
-  padding-left: 70px;
-      /* .services-text {
-      /* width: 70%; */
-    /* }  */
+  width: 22%; 
+  /* transform: translateY(600px); */
+  /* opacity: 0; */
+  padding-left: 0; 
+
 }
+
+.all-services {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+  gap: 40px; 
+}
+
+
+
+
+
