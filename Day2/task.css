@@ -1,77 +1,18 @@
-/* offers */
+.contact-container {
+    background-image: url("imgs/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
 
-.offers {
-  width: 80%;
-  margin: 100px auto;
+    .contact-imgs{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 640px;
+    height: 216px;
 
-  .offers__item {
-    width: 33%;
-    display: inline-block;
-    transform: translateY(600px);
-    opacity: 0;
-
-    .offers__img-container {
-      padding: var(--spacing-lg);
-
-      .img__wrapper {
-        width: 310px;
-        height: 390px;
-        /* background-color: lightblue; */
-        overflow: hidden;
-      }
-
-      .offer__img {
-        width: 100%;
-        transition: scale 0.7s;
-      }
     }
-
-    .offers__content {
-      padding-left: var(--spacing-lg);
-      position: relative;
-
-      .offers__number {
-        width: 35px;
-        height: 35px;
-        border-radius: 50%;
-        background-color: var(--color-primary-light);
-        color: var(--color-text-light);
-        display: inline-block;
-
-        text-align: center;
-        line-height: 35px;
-        position: absolute;
-        top: -15px;
-        left: -15px;
-        transition: all 0.7s;
-      }
-
-      .offers__heading {
-        font-size: var(--fs-large);
-        color: var(--color-text);
-        margin-bottom: var(--spacing-xs);
-        transition: color 0.7s;
-      }
-
-      .offers__text {
-        width: 80%;
-      }
-    }
-  }
-
-  .offers__item:hover {
-    .offer__img {
-      scale: 1.1;
-    }
-
-    .offers__number {
-      background-color: var(--color-bg-light);
-      color: var(--color-primary-light);
-      border: 1px solid var(--color-primary-light);
-    }
-
-    .offers__heading {
-      color: var(--color-primary-light);
-    }
-  }
+  
 }
