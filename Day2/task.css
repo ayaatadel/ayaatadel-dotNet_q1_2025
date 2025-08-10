@@ -175,6 +175,37 @@ p {
   }
 }
 
+/* ================= */
+/* offers */
+
+.offers {
+  width: 80%;
+  margin: 100px auto;
+
+  .offers__item {
+    width: 33%;
+    display: inline-block;
+    transform: translateY(600px);
+    opacity: 0;
+
+    .offers__img-container {
+      padding: var(--spacing-lg);
+
+      .img__wrapper {
+        width: 310px;
+        height: 390px;
+        /* background-color: lightblue; */
+        overflow: hidden;
+      }
+
+      .offer__img {
+        width: 100%;
+        transition: scale 0.7s;
+      }
+    }
+  }
+}
+
 .video {
   background-image: url(imgs/video-bg.png);
   background-size: cover;
