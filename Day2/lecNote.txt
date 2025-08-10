@@ -56,6 +56,9 @@ git merge feateure-navbar
 add branch in local to remote ==> git push origin branchName
 add branch feateure-navbar in local to remote ==> git push origin feateure-navbar 
 
-===> delete bransh ==> local 
---- > delete branch ==> you be on another branch
+===> delete bransh ==> local  ===> git branch -d branchName
+===> delete bransh ==> remote   ===> git push origin  -d branchName
+
+----> delete branch ==> you be on another branch
+----> n.commits of this branch <= n.commits of master
 
