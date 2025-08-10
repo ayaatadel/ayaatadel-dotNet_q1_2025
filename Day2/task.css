@@ -234,30 +234,47 @@ p {
 }
 
 .hero {
-  background: linear-gradient(
-      to right,
-      rgba(16, 26, 48, 0.7) 0%,
-      rgba(16, 26, 48, 0.7) 12%,
-      #101a31 91%,
-      #101a31 100%
-    ),
-    url(imgs/hero_bg.png);
-  height: 850px;
-  background-position: center;
-  background-size: cover;
-  position: relative;
+    background: linear-gradient(var(--color-hero-gradient)), url(imgs/hero_bg.png);
+    height: 850px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    .hero__content
 
-  .hero_img_container {
+{
+    position: absolute;
+    color: var(--color-text-light);
+    top: 20%;
+    left: 11%;
+    width: 40%;
+    /* background-color: lightblue; */
+
+    .hero__heading
+
+{
+    font-size: var(--fs-xxl);
+    margin: var(--spacing-sm) 0;
+}
+
+.hero__text {
+    width: 85%;
+}
+
+}
+
+.hero__img-container {
     position: absolute;
     right: 0;
     bottom: 0;
     height: 750px;
+    .hero__img
 
-    .hero_img {
-      height: 100%;
-      width: 660px;
-    }
-  }
+{
+    height: 100%;
+    width: 660px;
+}
+
+}
 }
 
 /* ================= */
