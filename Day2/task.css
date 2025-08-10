@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .contact-container {
     background-image: url("imgs/footer-bg.png");
     background-size: cover;
@@ -15,3 +16,40 @@
         }
     }
 }
+=======
+.video {
+  background-image: url(imgs/video-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 577px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .icon-container {
+
+    width: 250px;
+    height: 250px;
+    background-color: #be927832;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+      i {
+        font-size: 25px;
+        color: white;
+        width: 100px;
+        height: 100px;
+        background-color: #be9278;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: 3px solid white;
+      }
+  }
+}
+
+>>>>>>> 5e789c28f68202d44f68e3a0cbb3bc0bc4d2258b
