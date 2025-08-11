@@ -193,37 +193,37 @@ p {
   background-position: center;
   background-size: cover;
   position: relative;
+  .hero__content {
+    position: absolute;
+    color: var(--color-text-light);
+    top: 20%;
+    left: 11%;
+    width: 40%;
+    /* background-color: lightblue; */
+
+    .hero__heading {
+      font-size: var(--fs-xxl);
+      margin: var(--spacing-sm) 0;
+    }
+
+    .hero__text {
+      width: 85%;
+    }
+  }
+
+  .hero__img-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 750px;
+    .hero__img {
+      height: 100%;
+      width: 660px;
+    }
+  }
 }
 
-.hero__content {
-  position: absolute;
-  color: var(--color-text-light);
-  top: 20%;
-  left: 11%;
-  width: 40%;
-}
-
-.hero__heading {
-  font-size: var(--fs-xxl);
-  margin: var(--spacing-sm) 0;
-}
-
-.hero__text {
-  width: 85%;
-}
-
-.hero__img-container {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: 750px;
-}
-
-.hero__img {
-  height: 100%;
-  width: 660px;
-}
-
+/* ================= */
 /* offers */
 
 .offers {
@@ -754,6 +754,8 @@ p {
   color: #b6876b;
 }
 
+/* end-footer-info-style */
+
 /* Nada Mosalam -  The beginning of the section (about-our-tailor) */
 
 .grandsection {
@@ -828,4 +830,10 @@ p {
 
 .img-gallery section img {
   width: 33%;
+}
+
+/* Nada Mosalam -  The End of the section (about-our-tailor) */
+
+.adjust {
+  margin: 20px auto;
 }
